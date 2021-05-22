@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.header_top{
+    background-image: url('../images/suitup_top_banner.png');
+    color: white;
+    padding: 30px 30px;
+}
+#header_content1{
+    display:inline;
+    margin-right: 100px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+#header_content2{
+    display: inline;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.2em;
+    color: white;
+}
+.header_top .btn{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:15px;
+    margin-left: 50px ;
+    font-weight: bold;
+    font-size: 12px;
+}
+.header_top .btn:hover{
+    background-color: black;
+    color: white;
+}
+.top_header{
+    margin-bottom: 20px;
+    color: #bdbdbd;
+    background-color: #f9fafc;
+}
+.header_bottom{
+    display: flex;
+    padding: 10px 0;
+}
+.header_bottom_text{
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 9px 0;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    display: inline-block;
+}
+.search:hover{
+    color: #6fcfb8;
+}
+.user:hover{
+    color: #6fcfb8;
+}
+.wishlist:hover{
+    color: #6fcfb8;
+}
+.selector:hover{
+    color: #6fcfb8;
+}
+.header_bottom2{
+    background-color: #f9fafc;
+    padding-bottom: 10px;
+}
+.header_bottom2 img {
+    margin-right: 130px;
+}
+.spacing{
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.spacing1{
+    font-size: 20px;
+}
+.spacing1 .mybag1{
+    display: flex;
+}
+.mybag2{
+    color: #6fcfb8;
+}
+.sale{
+    background-color: #6fcfb8;
+    width: 270px;
+    height: 230px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.position{
+    position: absolute;
+    bottom: 100px;
+    right: 350px;
+}
+.position .btnPosition{
+    background-color: #6fcfb8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    padding:20px 20px;
+    margin-left: 120px;
+}
+
+.position2{
+    width:240px;
+    height: 60px;
+    background-color: white;
+    margin-left: 15px;
+    padding:5px 15px;
+    position: absolute;
+    bottom: 210px;
+}
+.doan{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.content2 .listProduct{
+    background-color: white;
+    padding: 10px 30px;
+    
+}
+.listProduct .title{
+    border-bottom: 1px silver solid;
+    padding: 7.5px 0;
+}
+.listProduct .title1{
+    padding: 10px 0;
+}
+.listProduct .title>h6{
+    font-weight: 200;
+}
+.listProduct .title1>h6{
+    font-weight: 200;
+}
+.listProduct>h6{
+    color: #bdbdbd;
+}
+.textBlack{
+    position: relative;
+    left:30px;
+    bottom: 250px;
+    font-size: 20px;
+}
+.textBlue{
+    position: relative;
+    left:30px;
+    bottom: 250px;
+    color: #6fcfb8;
+    font-size: 20px;
+}
+
+.content3 .popularProduct{
+    background-color: white;
+}
+
+.popularProduct .title_product{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.popularProduct .products{
+    padding: 0 20px;
+}
+
+.products .color_select .color_option{
+    width: 15px;
+    height: 15px;
+padding:1px 10px;
+border-radius: 50%;
+
+}
+.price_color{
+    display: flex;
+}
+
+.content5 
+{
+    margin-top: 30px;
+}
+
+.content5 .seasonsale{
+    background-color: white;
+}
+
+.seasonsale .title_sale{
+    text-align: left;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+
+.seasonsale .products{
+    padding: 0 20px;
+}
+.content6{
+    margin:50px 0;
+}
+.aaaa{
+    background-color: white;
+    margin-right:36px ;
+}
+.bbb{
+    background-color: white;
+    margin-right:36px  ;
+}
+.ccc{
+    background-color: white;
+    margin-right:36px  ;
+}
+.ddd{
+    background-color: white;
+}
+.content7{
+    display: flex;
+}
+.content_position{
+    color: white;
+    position:absolute;
+    top: 30px;
+    left:900px;
+    font-size: 20px;
+}
+#viewNow{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+#viewNow:hover{
+    background-color: black;
+    color: white;
+}
