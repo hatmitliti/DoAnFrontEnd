@@ -13,13 +13,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<Style>
-    /* Make the image fully responsive */
-    .carousel-inner img {
-        width: 100%;
-        height: 100%;
-    }
-</Style>
 
 <body>
     <div class="doan">
@@ -32,8 +25,7 @@
             <H4 id="header_content2">
                 Featuring a additional pages, plugins, beautiful pictures and fully functionality!
             </H4>
-            <a href="https://www.templatemonster.com/shopify-themes/suitup-multipurpose-online-store-shopify-theme-70679.html"
-                class="btn">SHOP NOW!</a>
+            <a href="#" class="btn">SHOP NOW!</a>
         </div>
         <header class="top_header">
             <div class="container">
@@ -63,7 +55,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand mr-6 img" href="#">
-                            <img src='./public/images/logo_100x30_crop_center.png' />
+                            <img src='./public/images/logo_100x30_crop_center.png' alt="logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -109,7 +101,7 @@
                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                 </ol>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" style="position: relative;">
                                         <img class="d-block w-100" src="./public/images/02_1170x577_crop_top.png"
                                             alt="First slide">
                                         <div class="position">
@@ -123,7 +115,7 @@
                                                 class="btnPosition">SHOP NOW!</a>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" style="position: relative;">
                                         <img class="d-block w-100" src="./public/images/01_1170x577_crop_center.jpg"
                                             alt="Second slide">
                                         <div class="position">
@@ -137,7 +129,7 @@
                                                 class="btnPosition">SHOP NOW!</a>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" style="position: relative;">
                                         <img class="d-block w-100" src="./public/images/001_1170x577_crop_center.jpg"
                                             alt="Third slide">
                                         <div class="position">
@@ -164,13 +156,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 hotStyle">
                             <div class="col-2">
-                                <img src="./public/images/030_270x330_crop_top.png" alt=""
-                                    style="width: 270px; height: 330px;">
-                                <div class="position2">
-                                    <h6 style="font-weight: 600; color: black;">GET THE HOSTTEST STYLES</h6>
-                                    <h5 style="font-weight: bold; color:#6fcfb8">AT 70% OFF</h5>
+                                <div class="off" style="position: relative;">
+                                    <img src="./public/images/030_270x330_crop_top.png" alt=""
+                                        style="width: 270px; height: 330px;">
+                                    <div class="position2">
+                                        <h6 style="font-weight: 600; color: black;">GET THE HOSTTEST STYLES</h6>
+                                        <h5 style="font-weight: bold; color:#6fcfb8">AT 70% OFF</h5>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-1">
@@ -254,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                             <div class="row">
                                 <div class="col-4">
                                     <div class="selected">
@@ -331,175 +325,184 @@
                         <div class="products">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./public/images/classic_fit_three-piece_check_suit_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/classic_fit_three-piece_check_suit_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:150px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
-                                        left: 15px;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         color: white;
-                                        top: 1668px;
-                                        left:165px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Classic Fit Three-Piece
-                                        Check Suit</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;">$140.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: black; ">&nbsp;</span>
-                                            <span class="color_option" style="background-color: brown; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Classic Fit Three-Piece
+                                            Check Suit</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;">$140.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: black; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: brown; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
+                                        </div>
                                     </div>
-
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/crewneck_sicoca_silk_blend_sweater_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/crewneck_sicoca_silk_blend_sweater_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:480px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         left: 15px;
                                         color: white;
-                                        top: 1668px;
-                                        left:495px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Crewneck 'Sicoca' Silk Blend
-                                        Sweatert</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;">$110.00-$119.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: blue; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Crewneck 'Sicoca' Silk
+                                            Blend
+                                            Sweatert</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;">$110.00-$119.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: blue; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
-                                    </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/illusion_yoke_lace_sheath_dress_2_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/illusion_yoke_lace_sheath_dress_2_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:800px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         left: 15px;
                                         color: white;
-                                        top: 1668px;
-                                        left:815px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Illusion Yoke Lace Sheath
-                                        Dress</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;">$140.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: brown; ">&nbsp;</span>
-                                            <span class="color_option" style="background-color: silver; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Illusion Yoke Lace
+                                            Sheath
+                                            Dress</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;">$140.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: brown; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: silver; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
-                                    </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/josefina_boyfriend_jeans_bright_light_broken_twill_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/josefina_boyfriend_jeans_bright_light_broken_twill_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                             background-color: black;   
                                             width: 60px;
                                             height: 60px;
                                             border-radius: 50%;
                                             text-align: center;
-                                            top: 1650px;
-                                            left:1120px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                            top: 10px;
+                                            left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                             left: 15px;
                                             color: white;
-                                            top: 1668px;
-                                            left:1135px">
-                                        new
-                                    </div>
-
-                                    <a href="#" style="text-decoration: none;color: black;">Josefina Boyfriend Jeans
-                                        Bright Light Broken Twill</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;"><Strike
-                                                style="color: silver;">$180</Strike> $160</p>
-                                    </div>
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
-                                        </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                            top: 25px;
+                                            left:25px">
+                                            new
                                         </div>
 
-                                    </div>
+                                        <a href="#" style="text-decoration: none;color: black;">Josefina Boyfriend Jeans
+                                            Bright Light Broken Twill</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;"><del
+                                                    style="color: silver;">$180</del> $160</p>
+                                        </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -516,178 +519,193 @@
                         <div class="products">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./public/images/bing_trim_fit_cotton_jersey_polo_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/bing_trim_fit_cotton_jersey_polo_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:150px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         left: 15px;
                                         color: white;
-                                        top: 1668px;
-                                        left:165px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Bring' Trim Fit Cotton
-                                        Jersey Polo</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 10px;">$285.00$ - $290.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: blue; ">&nbsp;</span>
-                                            <span class="color_option"
-                                                style="background-color: white;border: 1px solid silver; ">&nbsp;</span>
-                                            <span class="color_option" style="background-color: silver; ">&nbsp;</span>
-                                            <span class="color_option" style="background-color: green; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Bring' Trim Fit Cotton
+                                            Jersey Polo</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 10px;">$285.00$ - $290.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: blue; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: white;border: 1px solid silver; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: silver; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: green; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
-                                    </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+
+
+                                    </div>
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/crewneck_sicoca_silk_blend_sweater_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/crewneck_sicoca_silk_blend_sweater_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:480px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         left: 15px;
                                         color: white;
-                                        top: 1668px;
-                                        left:495px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Crewneck 'Sicoca' Silk Blend
-                                        Sweatert</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;">$110.00-$119.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: blue; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Crewneck 'Sicoca' Silk
+                                            Blend
+                                            Sweatert</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;">$110.00-$119.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: blue; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
-                                    </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/illusion_yoke_lace_sheath_dress_2_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/illusion_yoke_lace_sheath_dress_2_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                         background-color: black;   
                                         width: 60px;
                                         height: 60px;
                                         border-radius: 50%;
                                         text-align: center;
-                                        top: 1650px;
-                                        left:800px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                        top: 10px;
+                                        left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                         left: 15px;
                                         color: white;
-                                        top: 1668px;
-                                        left:815px">
-                                        new
-                                    </div>
-                                    <a href="#" style="text-decoration: none;color: black;">Illusion Yoke Lace Sheath
-                                        Dress</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;">$140.00</p>
-                                        <p class="color_select">
-                                            <span class="color_option" style="background-color: brown; ">&nbsp;</span>
-                                            <span class="color_option" style="background-color: silver; ">&nbsp;</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
+                                        top: 25px;
+                                        left:25px">
+                                            new
                                         </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                        <a href="#" style="text-decoration: none;color: black;">Illusion Yoke Lace
+                                            Sheath
+                                            Dress</a>
+                                        <div class="price_color">
+                                            <p style="color: #f01;margin-right: 150px;">$140.00</p>
+                                            <p class="color_select">
+                                                <span class="color_option"
+                                                    style="background-color: brown; ">&nbsp;</span>
+                                                <span class="color_option"
+                                                    style="background-color: silver; ">&nbsp;</span>
+                                            </p>
                                         </div>
 
-                                    </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="col-3">
-                                    <img src="./public/images/josefina_boyfriend_jeans_bright_light_broken_twill_1_270x341_crop_top.jpg"
-                                        alt="aa">
-                                    <div class="new" style="position: absolute;
+                                    <div class="item" style="position: relative;">
+                                        <img src="./public/images/josefina_boyfriend_jeans_bright_light_broken_twill_1_270x341_crop_top.jpg"
+                                            alt="aa">
+                                        <div class="new" style="position: absolute;
                                             background-color: black;   
                                             width: 60px;
                                             height: 60px;
                                             border-radius: 50%;
                                             text-align: center;
-                                            top: 1650px;
-                                            left:1120px">
-                                        <span></span>
-                                    </div>
-                                    <div class="new_position" style=" position: absolute;
+                                            top: 10px;
+                                            left:10px">
+                                            <span></span>
+                                        </div>
+                                        <div class="new_position" style=" position: absolute;
                                             left: 15px;
                                             color: white;
-                                            top: 1668px;
-                                            left:1135px">
-                                        new
-                                    </div>
-
-                                    <a href="#" style="text-decoration: none;color: black;">Josefina Boyfriend Jeans
-                                        Bright Light Broken Twill</a>
-                                    <div class="price_color">
-                                        <p style="color: #f01;margin-right: 150px;"><Strike
-                                                style="color: silver;">$180</Strike> $160</p>
-                                    </div>
-                                    <div class="cart" style="display: flex;">
-                                        <div class="chosseVarinant" style="display: flex;margin-right:100px;">
-                                            <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
-                                            <p style="padding-bottom: 15px;">Choose variant</p>
-                                        </div>
-                                        <div class="icon" style="display: flex;">
-                                            <i class="fas fa-heart"></i>
-                                            <i class="fas fa-search-plus"></i>
+                                            top: 25px;
+                                            left:25px">
+                                            new
                                         </div>
 
-                                    </div>
+                                        <a href="#" style="text-decoration: none;color: black;">Josefina Boyfriend Jeans
+                                            Bright Light Broken Twill</a>
+                                        <div class="price_color">
+                                            <del style="color: silver;">$180</del>
+                                            <p style="color: #f01;margin-right: 150px;">
+                                                $160</p>
+                                        </div>
+                                        <div class="cart" style="display: flex;">
+                                            <div class="chosseVarinant" style="display: flex;margin-right:100px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i>
+                                                <p style="padding-bottom: 15px;">Choose variant</p>
+                                            </div>
+                                            <div class="icon" style="display: flex;">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-search-plus"></i>
+                                            </div>
 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -697,7 +715,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-3 aaaa">
-                                <h6 style="color: #bdbdbd;margin-bottom: 20px;">ABOUT OUR COMPANY</h6>
+                                <h6 style="color: #bdbdbd;margin:20px 0;">ABOUT OUR COMPANY</h6>
                                 <img src="./public/images/logo_100x30_crop_center.png" alt="aa"
                                     style="margin-bottom: 20px;">
                                 <p style="margin-bottom: 80px;"> The theme is the great choice to launched your
@@ -710,7 +728,7 @@
                                     updating to all new technical requirements.</p>
                             </div>
                             <div class="col-3 bbb">
-                                <h6 style="color: #bdbdbd;margin-bottom: 20px;">CATEGORIES</h6>
+                                <h6 style="color: #bdbdbd;margin:20px 0;">CATEGORIES</h6>
                                 <a style="text-decoration: none;"> Men’s clothing</a><br>
                                 <a>Women’s clothing</a><br>
                                 <a>Teens clothing</a><br>
@@ -725,12 +743,12 @@
                                 <a>Overcoats</a><br>
                             </div>
                             <div class="col-3 ccc">
-                                <h6 style="color: #bdbdbd;margin-bottom: 20px;">FOOTER MENU</h6>
+                                <h6 style="color: #bdbdbd;margin:20px 0;">FOOTER MENU</h6>
                                 <a>Home page</a><br>
                                 <a>Search</a><br>
                             </div>
                             <div class="col-2 ddd">
-                                <h6 style="color: #bdbdbd;margin-bottom: 20px;">MAIN MENU</h6>
+                                <h6 style="color: #bdbdbd;margin:20px 0;">MAIN MENU</h6>
                                 <a>Home</a><br>
                                 <a>Catalog</a><br>
                             </div>
@@ -748,13 +766,13 @@
                 </div>
             </div>
         </div>
-        <footer class = "fter" style="position: relative;">
-            <div class = "content_position">
+        <footer class="fter" style="position: relative;">
+            <div class="content_position">
                 <b>Upgrade</b>
                 to a Fully-fledged
                 <b>SuitUP!</b>
                 <p>Featuring a additional pages, plugins, beautiful pictures and fully functionality!</p>
-                <a href="#" id ="viewNow">View Now</a>
+                <a href="#" id="viewNow">View Now</a>
             </div>
             <img src="public/images/suitup_footer_banner.png" alt="aa">
         </footer>
